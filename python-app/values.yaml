@@ -10,6 +10,3 @@ containers:
 image:
   repository: 442222453508.dkr.ecr.ap-south-1.amazonaws.com/python-app-repo
   tag: 0cd110a9f341b983eb9e24e45342aa5e296207c9
-ports:
-  port: 80
-  targetPort: 5000
