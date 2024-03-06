@@ -17,7 +17,7 @@ spec:
         - name: "{{ .Values.containers.name }}"
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           ports:
-            - containerPort: "{{ .Values.ports.targetPort }}"
+            - containerPort: 3000
       imagePullSecrets:
         - name: ecr-registry
             
