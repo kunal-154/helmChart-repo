@@ -8,6 +8,6 @@ spec:
       app: "{{ .Values.app.value }}"
   ports:
     - protocol: TCP
-      port: "{{ .Values.ports.port }}"
-      targetPort: "{{ .Values.ports.targetPort }}"
+      port: 80
+      targetPort: 3000
   type: LoadBalancer
